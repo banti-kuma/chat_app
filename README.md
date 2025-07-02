@@ -38,8 +38,8 @@ A real-time **chat application** built using **Flutter**, **Firebase**, and **Ge
 ### 📥 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/flutter-firebase-chat-getx.git
-cd flutter-firebase-chat-getx
+git clone https://github.com/banti-kuma/chat_app.git
+cd chat_app
 📦 Install Dependencies
 bash
 Copy
@@ -124,9 +124,7 @@ lib/
 │   │   └── chat_input_field.dart
 └── firebase_options.dart
 📜 Example Firebase Firestore Rules
-js
-Copy
-Edit
+
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -135,12 +133,3 @@ service cloud.firestore {
     }
   }
 }
-🎯 Packages Used
-Package	Purpose
-get	State management & navigation
-firebase_core	Firebase initialization
-firebase_auth	Firebase Authentication
-cloud_firestore	Real-time database
-firebase_storage	Upload & download images
-image_picker	Picking images from device
-flutterfire_cli	Firebase configuration utility
